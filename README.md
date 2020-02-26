@@ -41,7 +41,7 @@ Define validation rules for fillable attributes, and use it through Request.
 
 ### Model Factory
 
-Create model factories that use `facker` for each model.
+Create model factories that use `faker` for each model.
 
 ### Unit Test
 
@@ -65,5 +65,10 @@ Create model factories that use `facker` for each model.
 * Step by step installation guide including unit test steps in Readme.
 * Source code including homestead related files.
 * Share your git repo url to us.
+
+## Instruction
+* Run command to create database `php artisan make:database laravel {connection?}`
+* Run command to create tables `php artisan migrate`
+* Run command to seed `php artisan db:seed --class=GroupSeeder, php artisan db:seed --class=ResourceSeeder`
 
 Thanks.
